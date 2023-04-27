@@ -1,0 +1,91 @@
+.backimg{
+    background-image: url("https://images.pexels.com/photos/7130546/pexels-photo-7130546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    
+    background-size: cover;
+    background-position: center;
+    height: 59rem;
+    width: 99vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.login-container {
+  margin-top: 8rem;
+  font-family: 'Shantell Sans', cursive;
+/* font-family: 'Silkscreen', cursive; */
+}
+.imag {
+  display: block;
+  margin: auto;
+  height: 15rem;
+  width: 15rem;
+}
+.imag2 {
+  height: 30rem;
+  width: 45rem;
+}
+.input_bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size:0.9rem;
+    height: 2.9rem;
+}
+.custom-btn{
+    padding:0.6rem;
+    border-radius: 4px;
+    width:100%;
+}
+.custom-btn-blue{
+    border: 1px solid;
+    color:#f3f3f3;
+    background-color: rgb(166, 196, 244);
+    padding:14px;
+}
+.custom-btn-blue:hover{
+    border: 1px solid;
+    color:#f3f3f3;
+    background-color: rgb(0, 98, 255);
+    transition: 0.3s;
+    padding:14px;
+}
+.custom-btn-white{
+    border: 1px solid;
+    color:black;
+    background-color: whitesmoke;
+    padding:14px;
+}
+.custom-btn-white:hover{
+    border: 1px solid;
+    color:black;
+    background-color: gainsboro;
+    transition: 0.3s;
+    padding:14px;
+}
+@media screen and (max-width: 768px) {
+  .imag2 {
+    display:none;
+}
+.imag{
+    display: block;
+    margin: auto;
+  height: 7rem;
+  width: 7rem;
+  margin-bottom: 2rem
+  ;
+margin-top: -2rem;
+
+}
+.card-body{
+    padding-left: 1.4rem !important;
+    padding-right: 1.4rem !important;
+}
+
+.card{
+    border: none !important;
+}
+.shadow{
+    box-shadow: none !important;
+}
+}
